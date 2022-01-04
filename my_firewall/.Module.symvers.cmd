@@ -1,0 +1,1 @@
+cmd_/home/shexinyu/my_firewall/Module.symvers := sed 's/ko$$/o/' /home/shexinyu/my_firewall/modules.order | scripts/mod/modpost -m -a   -o /home/shexinyu/my_firewall/Module.symvers -e -i Module.symvers   -T -

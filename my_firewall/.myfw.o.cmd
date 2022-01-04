@@ -1,0 +1,1 @@
+cmd_/home/shexinyu/my_firewall/myfw.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /home/shexinyu/my_firewall/myfw.o /home/shexinyu/my_firewall/my_firewall.o /home/shexinyu/my_firewall/hashmap.o

@@ -1,0 +1,1 @@
+cmd_/home/shexinyu/my_firewall/myfw.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/shexinyu/my_firewall/myfw.ko /home/shexinyu/my_firewall/myfw.o /home/shexinyu/my_firewall/myfw.mod.o;  true
